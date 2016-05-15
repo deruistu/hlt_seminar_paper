@@ -288,21 +288,47 @@ For example, we consider to translate the english sentence "Miss Smith put two b
 	\begin{center}
 		\includegraphics[width=9cm]{./rule-based-example}           % keine file extension angeben
 		\caption{Example of rule-based translation process}  % Bild_unter_schrift
-		\label{Rule_based_example}
+		\label{fig:Rule_based_example}
 	\end{center}
 \end{figure}
 
 
 \subsection{Stastical-based Translation}
-The basic idea of statistical approach is to obtain translation rules and probability parameters automatically from bilingual corpus by employing statistical machine learning technologies. Graphic 1 shows string-based and tree-based translation model, which are used in statistical translation widely. Phrase-based model is a mature tranlation approach. The phrase means successive word sequences rather than the phrase defined in linguistics.
+The basic idea of statistical approach is to obtain translation rules and probability parameters automatically from bilingual corpus by employing statistical machine learning technologies. Graphic 1 shows string-based and tree-based translation model, which are used in statistical translation widely. Statistical translation models usually is partitioned as word-based, phrase-based and gramma-based translation model. Phrase-based translation model is a mature tranlation approach. The phrase means successive word sequences rather than the phrase defined in linguistics. The main idea of this model is to extract phrase-to-phrase translation rules from large number of bilingual sentences. Then, in the phase of tranlastion, system cuts the words to translate according to the phrases that got by last step. By the help of re-order model, finally, target sentence is generated. If there is variables in the phrase contained into translation rules, the phrase-based model is hierarchical phrase-based translation model. It owns better representation ability and performance. The below graph 3 show the comparative between these two models.  
 
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=9cm]{./statistical_translation_graph}           % keine file extension angeben
 		\caption{string-based and tree-based translation models}  % Bild_unter_schrift
-		\label{string-based and tree-based translation models}
+		\label{fig:string-based and tree-based translation models}
 	\end{center}
 \end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./comprative-phrase-based}           % keine file extension angeben
+		\caption{The compare between phrase-based model(a) and hierarchical phrase-based model }  % Bild_unter_schrift
+		\label{fig:comparative-phrase-based}
+	\end{center}
+\end{figure}
+
+\subsection{Neural Network-based Translation}
+Neural network-based translation approach is proposed recently. Based on the sequence to sequence learning, neural machine translation doesnot rely on the specialized knowledge on langauge, like gramma, syntax, sentence structure and so on. Traditional statistical machine translation has much dependency on sub model, for example, rescoring model and reorder model. Compared to that, neural machine translation is much easier. However, the complexity of training neural translation model is harder than statistical translation model.\\
+As shown in the graph 4, neural translation process is divided into two steps, encoder and decoder. In the phase of encode, it encodes the source sentence into a vector that contains source sentence information. Then, the decoder generate the target sentence based on the vector.
+
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./sequence-to-sequence-translation}           % keine file extension angeben
+		\caption{Sequence to sequence Tranlation }  % Bild_unter_schrift
+		\label{fig:sequence-to-sequence-translation-model}
+	\end{center}
+\end{figure}
+
+\subsection{Matrics on translation performance}
+This part, I will introduce the matircs on translation.\\
+
+This paper will be organized as 4 parts in the rest sections. The second part will give a brief introduction on neural network, which can be used in sequence-to-sequence learning. It is the foundation of neural machine translaton. Next, the third part will propose a classical neural machine translation model. Then, the attention-based neural machine translation will be shown. In the last part, we will show the experiment result between these machine translation model in terms of Bleu scores.    
 
 \section{Neural Nerwork}
 

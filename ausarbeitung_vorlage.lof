@@ -1,4 +1,6 @@
 \select@language {ngerman}
 \contentsline {figure}{\numberline {1}{\ignorespaces Example of rule-based translation process}}{5}{figure.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces string-based and tree-based translation models}}{6}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Architektur eines Spracherkennungssystems}}{8}{figure.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces The compare between phrase-based model(a) and hierarchical phrase-based model }}{6}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Sequence to sequence Tranlation }}{7}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Architektur eines Spracherkennungssystems}}{9}{figure.5}
