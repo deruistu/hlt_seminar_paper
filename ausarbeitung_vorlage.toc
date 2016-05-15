@@ -1,0 +1,17 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Rule-based Translation}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Stastical-based Translation}{5}{subsection.1.2}
+\contentsline {section}{\numberline {2}Neural Nerwork}{6}{section.2}
+\contentsline {section}{\numberline {3}Neural Machine Translation}{6}{section.3}
+\contentsline {section}{\numberline {4}Attention-based Neural Machine Translation}{6}{section.4}
+\contentsline {section}{\numberline {5}Evaluation}{6}{section.5}
+\contentsline {section}{\numberline {6}Introduction}{6}{section.6}
+\contentsline {section}{\numberline {7}Neural Network}{7}{section.7}
+\contentsline {subsection}{\numberline {7.1}Unterabschnitt}{7}{subsection.7.1}
+\contentsline {section}{\numberline {8}Neural Machine Translation}{7}{section.8}
+\contentsline {section}{\numberline {9}Attention-based Neural Machine Translation}{7}{section.9}
+\contentsline {subsubsection}{\numberline {9.0.1}Unter-Unterabschnitt: Beispiel f\"ur Tabellen}{7}{subsubsection.9.0.1}
+\contentsline {subsection}{\numberline {9.1}Unterabschnitt: Beispiel f\"ur Grafiken}{7}{subsection.9.1}
+\contentsline {section}{\numberline {10}Evaluation}{8}{section.10}
+\contentsline {section}{Literaturverzeichnis}{8}{section.10}

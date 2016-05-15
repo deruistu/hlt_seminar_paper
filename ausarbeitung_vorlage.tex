@@ -233,17 +233,17 @@
     Rheinisch-Westf\"alische Technische Hochschule Aachen \\
     Lehrstuhl f\"ur Informatik 6 \\
     Prof. Dr.-Ing. Hermann Ney\\[6ex]
-    Seminar Titel im SS 20XX\\[12ex]                          % auch Seminar Titel und Datum ändern!!!
+    Seminar Selected Topics in Human Language Technology and Pattern Recognition im SS 2016\\[12ex]                          % auch Seminar Titel und Datum ändern!!!
    
     \LARGE
-    \textbf{Titel des Vortrages} \\[6ex]
-    \textit{Vorname Name} \\[6ex]
+    \textbf{Attention-based Neural Machine Translation} \\[6ex]
+    \textit{Derui ZHU} \\[6ex]
     \Large
-    Matrikelnummer 123 456 \\[6ex]
-    Datum des Vortrages
+    Matrikelnummer 352273 \\[6ex]
+    
 
     \vfill
-    \Large Betreuer: Vorname Name
+    \Large Betreuer: Parnia Bahar
 	    
 \end{center}
 
@@ -276,7 +276,50 @@
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Name des ersten Abschnitts}
+
+\section{Introduction}
+Machine translation is one important research field of natural language processing. In general, machine translation is the process of transfering one natural language into another natural language. From early lexicon translation to corpus-based statistical translaton, machine translation technologies experience a huge improvement.\\
+Recalling the history of machine translation development, before 1980s, rule-based translation were the most important approaches. In the end of 1980s, statistical translation approaches were proposed, the situation changed. It rapidly becomes mainstream approaches. Recently, neural network-based translation has shown its huge power.
+\subsection{Rule-based Translation}
+Rule-based translation is a process that generate target language by analysing source language's structure and building a meaningful representation. Rule-based approaches are mainly divided into transfer-based and interlingua-based translation process. Interlingua-based approach generate intermediate language first after analysing source language. Then the target language is produced by the intermediate langauge. Most of the rule-based translation system uses transfer-based translation process. It is composed of three steps. Firstly, the system generates an abstract representation of source language. Then, the abstract representation of source language is transferred into the abstraction representation of target language. In the end, the abstraction representation of target language generates target language.       \\
+For example, we consider to translate the english sentence "Miss Smith put two books on this dining table" into chinese. First of all, the system praser its morphological syntax to get the syntax tree(below [2]). During the transfer phase, lexical and syntax transform are excuted at the same time. After that, we get the target words, which locate in the nodes of syntax tree generated.  
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./rule-based-example}           % keine file extension angeben
+		\caption{Example of rule-based translation process}  % Bild_unter_schrift
+		\label{Rule_based_example}
+	\end{center}
+\end{figure}
+
+
+\subsection{Stastical-based Translation}
+The basic idea of statistical approach is to obtain translation rules and probability parameters automatically from bilingual corpus by employing statistical machine learning technologies. Graphic 1 shows string-based and tree-based translation model, which are used in statistical translation widely. Phrase-based model is a mature tranlation approach. The phrase means successive word sequences rather than the phrase defined in linguistics.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./statistical_translation_graph}           % keine file extension angeben
+		\caption{string-based and tree-based translation models}  % Bild_unter_schrift
+		\label{string-based and tree-based translation models}
+	\end{center}
+\end{figure}
+
+\section{Neural Nerwork}
+
+\section{Neural Machine Translation}
+
+\section{Attention-based Neural Machine Translation}
+
+\section{Evaluation}
+
+
+
+
+
+
+
+
+\section{Introduction}
 \label{sec:Abschnitt-1}
 
 %% Der Befehl \section{} erstellt den ersten Abschnitt. Unter-
@@ -308,9 +351,6 @@ Dies ist eine Referenz auf Abschnitt~\ref{sec:Abschnitt-1}
 
 
 
-\subsection{Unterabschnitt: Texte in \TeX}
-
-
 Erzeugen wir erst etwas Text, um uns mit der Schreibweise in \LaTeX\ 
 vertraut zu machen. \LaTeX\ bricht selbst\"andig Zeilen und Seiten um.
 Selbst in einem Neogloismus wie dem ziemlich langen Wort aus Michael
@@ -332,8 +372,6 @@ n\"achste Zeile einger\"uckt. Wem das nicht gef\"allt, der kann im
 und das damit unterdr\"ucken. 
 Text mit \"a, \"o, \"U, Stra{"s}e, Caf\'e.\\[4ex]
 
-
-\subsection{Unterabschnitt: mathematische Formeln}
 
 
 %% Betrachten wir nun die Erzeugung mathematischer Formeln. In LaTeX
@@ -418,8 +456,12 @@ Beispiel f\"ur ein lineares Gleichungssystem:\\
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Name des zweiten Abschnitts}
+\section{Neural Network}
 \subsection{Unterabschnitt}
+
+\section{Neural Machine Translation}
+
+\section{Attention-based Neural Machine Translation}
 \subsubsection{Unter-Unterabschnitt: Beispiel f\"ur Tabellen}
 
 
@@ -505,6 +547,8 @@ Literatur-Refererenzen modifizieren kann.
 \\ \ \\
 Letzter Hinweis: \LaTeX-Neulinge sollten auch die Kommentare im
 \TeX-File lesen.
+
+\section{Evaluation}
 
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \bibliographystyle{plain}

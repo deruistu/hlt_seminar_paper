@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{Name:1991}
+Autor1, Autor2, and Autor3.
+\newblock {Titel des Papers}.
+\newblock In {\em {Name des Bandes, in dem Artikel ver\"offentlicht wurde}},
+  volume Band, pages xxx--yyy, Monat 1991.
+
+\bibitem{Name:1996}
+Autor1, Autor2, and Autor3.
+\newblock {Titel des Reports}.
+\newblock Technical report, {Name des Instituts}, Monat 1996.
+
+\bibitem{Ende:1989}
+M.~Ende.
+\newblock {\em {Der Wunschpunsch}}.
+\newblock Tiemann Verlag, 1989.
+
+\end{thebibliography}
