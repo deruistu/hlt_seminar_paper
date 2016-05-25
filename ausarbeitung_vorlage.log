@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.10)  15 MAY 2016 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.10)  24 MAY 2016 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,7 +494,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 283.
 
-<./rule-based-example.png, id=132, 599.23875pt x 202.7575pt>
+<./rule-based-example.png, id=141, 599.23875pt x 202.7575pt>
 File: ./rule-based-example.png Graphic file (type png)
 
 <use ./rule-based-example.png>
@@ -513,7 +513,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 298.
  [5 <./rule-based-example.png>]
-<./statistical_translation_graph.png, id=139, 432.61626pt x 185.69376pt>
+<./statistical_translation_graph.png, id=148, 432.61626pt x 185.69376pt>
 File: ./statistical_translation_graph.png Graphic file (type png)
 
 <use ./statistical_translation_graph.png>
@@ -521,7 +521,7 @@ Package pdftex.def Info: ./statistical_translation_graph.png used on input line
  301.
 (pdftex.def)             Requested size: 256.0748pt x 109.92104pt.
 
-<./comprative-phrase-based.png, id=140, 569.12625pt x 257.96375pt>
+<./comprative-phrase-based.png, id=149, 569.12625pt x 257.96375pt>
 File: ./comprative-phrase-based.png Graphic file (type png)
 
 <use ./comprative-phrase-based.png>
@@ -532,7 +532,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 315.
 
-<./sequence-to-sequence-translation.png, id=141, 540.0175pt x 112.42pt>
+<./sequence-to-sequence-translation.png, id=150, 540.0175pt x 112.42pt>
 File: ./sequence-to-sequence-translation.png Graphic file (type png)
 
 <use ./sequence-to-sequence-translation.png>
@@ -543,11 +543,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 328.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 328.
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-
- []
-
 
 Underfull \vbox (badness 5548) has occurred while \output is active []
 
@@ -561,110 +556,141 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 331.
  [6 <./statistical_translation_graph.png> <./comprative-phrase-based.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 333.
+(babel)             in language  on input line 349.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 333.
+(babel)             in language  on input line 349.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 353.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 353.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 353.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 339.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 348.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 348.
+(babel)             in language  on input line 353.
+ [7 <./sequence-to-sequence-translation.png>]
+<./basic_deep_neural_network.png, id=170, 585.18625pt x 330.23375pt>
+File: ./basic_deep_neural_network.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--392
+<use ./basic_deep_neural_network.png>
+Package pdftex.def Info: ./basic_deep_neural_network.png used on input line 364
+.
+(pdftex.def)             Requested size: 256.0748pt x 144.51218pt.
+
+<./single_perceptron.png, id=171, 275.0275pt x 128.48pt>
+File: ./single_perceptron.png Graphic file (type png)
+
+<use ./single_perceptron.png>
+Package pdftex.def Info: ./single_perceptron.png used on input line 372.
+(pdftex.def)             Requested size: 256.0748pt x 119.63611pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 378.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 378.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 380.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 380.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 382.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 382.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 384.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 384.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 393.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 425.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 425.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 425.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 425.
+ [8 <./basic_deep_neural_network.png> <./single_perceptron.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 425--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--392
+Underfull \hbox (badness 10000) in paragraph at lines 425--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
+Underfull \hbox (badness 10000) in paragraph at lines 440--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--417
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 420.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 420.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 420.
-[7 <./sequence-to-sequence-translation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 420--449
+Underfull \hbox (badness 10000) in paragraph at lines 454--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--449
+Underfull \hbox (badness 10000) in paragraph at lines 465--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--465
+Underfull \hbox (badness 10000) in paragraph at lines 465--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--465
+Underfull \hbox (badness 10000) in paragraph at lines 503--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--510
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 485.
+(babel)             in language  on input line 530.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 485.
+(babel)             in language  on input line 530.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 531.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 531.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 488.
+(babel)             in language  on input line 533.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 488.
+(babel)             in language  on input line 533.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 490.
+(babel)             in language  on input line 535.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 490.
+(babel)             in language  on input line 535.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 491.
+(hyperref)                than one, level fixed on input line 536.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 491.
+(babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 491.
+(babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 531.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 531.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 559.
+[9]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 576.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 538.
-[8]
+(babel)             in language  on input line 576.
 Package epstopdf Info: Source file: <./architektur.eps>
 (epstopdf)                    date: 1999-12-02 13:02:00
 (epstopdf)                    size: 20676 bytes
@@ -673,81 +699,90 @@ Package epstopdf Info: Source file: <./architektur.eps>
 (epstopdf)                    size: 12444 bytes
 (epstopdf)             Command: <repstopdf --outfile=./architektur-eps-converte
 d-to.pdf ./architektur.eps>
-(epstopdf)             \includegraphics on input line 544.
+(epstopdf)             \includegraphics on input line 589.
 Package epstopdf Info: Output file is already uptodate.
- <./architektur-eps-converted-to.pdf, id=169, 311.1625pt x 256.96pt>
+ <./architektur-eps-converted-to.pdf, id=188, 311.1625pt x 256.96pt>
 File: ./architektur-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./architektur-eps-converted-to.pdf>
 Package pdftex.def Info: ./architektur-eps-converted-to.pdf used on input line 
-544.
+589.
 (pdftex.def)             Requested size: 256.0748pt x 211.46921pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 552.
+(babel)             in language  on input line 597.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 552.
+(babel)             in language  on input line 597.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 552.
+(babel)             in language  on input line 597.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 552.
- [9 <./architektur-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 563.
+(babel)             in language  on input line 597.
+ [10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 608.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 563.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 608.
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--576
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 560--576
+Underfull \hbox (badness 10000) in paragraph at lines 605--621
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--576
+Underfull \hbox (badness 10000) in paragraph at lines 605--621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--621
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 577.
+(babel)             in language  on input line 622.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 577.
+(babel)             in language  on input line 622.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 579.
+(babel)             in language  on input line 624.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 579.
+(babel)             in language  on input line 624.
 (./ausarbeitung_vorlage.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 583.
+(babel)             in language  on input line 628.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 583.
+(babel)             in language  on input line 628.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 583.
+(babel)             in language  on input line 628.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 583.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
- (./ausarbeitung_vorlage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
-Package rerunfilecheck Info: File `ausarbeitung_vorlage.out' has not changed.
-(rerunfilecheck)             Checksum: A5864BD10341DDFF273B766E8727917A;1187.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
+(babel)             in language  on input line 628.
+ [11 <./architektur-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+
+(./ausarbeitung_vorlage.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+
+
+Package rerunfilecheck Warning: File `ausarbeitung_vorlage.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ausarbeitung_vorlage.out':
+(rerunfilecheck)             Before: 6E7EF703A42C0E6C14F796EEC17174CF;1255
+(rerunfilecheck)             After:  DBD6647D06D50F8BF8E641A2BDF96426;1330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 628.
  ) 
 Here is how much of TeX's memory you used:
- 7016 strings out of 493117
- 100334 string characters out of 6135433
- 193350 words of memory out of 5000000
- 10294 multiletter control sequences out of 15000+600000
+ 7034 strings out of 493117
+ 100759 string characters out of 6135433
+ 194444 words of memory out of 5000000
+ 10305 multiletter control sequences out of 15000+600000
  12245 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,32p,1170b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,32p,1170b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -761,13 +796,14 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ausarbeitung_vorlage.pdf (10 pages, 422059 bytes).
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ausarbeitung_vorlage.pdf (11 pages, 571467 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

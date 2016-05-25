@@ -326,11 +326,56 @@ As shown in the graph 4, neural translation process is divided into two steps, e
 \end{figure}
 
 \subsection{Matrics on translation performance}
-This part, I will introduce the matircs on translation.\\
+ Not only is it not easy to translate natural language, but also it is really hard on evaluating translating quality. Most of paper use Bleu as metric on translation quality, which proposed by IBM.\\
+ Bleu(Bilingual Evaluation understudy) is used for measuring the quality of translation by comparing the similarity between machine's result and that of a human. The closer a sentence translated by machine is to human's translation, the better it is. How to compute a Bleu score? Firstly, we count the maximun possible numbers of a n-gram word that display in sentence translated by machine and professional result. Then, we take the minimun value from last two numbers. After that, we divide the value by the number of n-gram word in the professional result. The formula is shown below.
+ \[
+ {Count}_{clip}(n-gram)=min \{ Count(n-gram), \quad MaxRefCount(n-gram) \}
+ \]
+ \[
+  {p}_{n}= \Frac{ \sum_{C \in candidates} \sum_{n-gram \in C} {Count}_{clip}(n-gram)} {\sum_{C \in candidates } \sum_{n-gram \in C } Count(n-gram) }
+ \]
+ \[
+   Bleu=BP*exp [ (\sum_{n=1}^{N} {w}_{n} log {p}_{n}) ]
+ \]
+ \[
+ BP=\begin{cases}
+\quad 1 & \text{ if } c>r \\ 
+\quad EXP(1-r/c)) & \text{ if } c<=r
+ \end{cases}
+ \]
 
 This paper will be organized as 4 parts in the rest sections. The second part will give a brief introduction on neural network, which can be used in sequence-to-sequence learning. It is the foundation of neural machine translaton. Next, the third part will propose a classical neural machine translation model. Then, the attention-based neural machine translation will be shown. In the last part, we will show the experiment result between these machine translation model in terms of Bleu scores.    
 
 \section{Neural Nerwork}
+Deep Neural Network is an extremely powerful approach for machine translation, image and speech recognition and so on. Along with the development of computing resources and related technologies, large scale deep neural network training is becoming more and more realistic. In principle, if given enough data and computing resource, neural network can fit any real-world model. 
+\subsection{Brief Introduction}
+In general, neural network is consisted of input layer, hidden layer and output layer(see below graph). The hidden layer usually has multiple layers. Each layer(except input layer) is composed of multiple neurons called perceptrons. Perceptrons were proposed by Frank Rosenblatt \cite{}, which inspired by the work of Warren McCulloch and Walter Pitts\cite{}. It usually means sigmoid function. How does it work? One perceptrons(see below graph) accepts some scalar input to produce a score by linear tranformation, then output a value between 0 and 1 by non-linear transformation. The linear Transformation follows the rule below, where W is the weight matrix and b is their biases. The non-linear transformation use the sigmoid function(see below). Overall, a general neural network can be decribed as below, which h is a non-linear transformation function. Different non-linear function may affect the model performance seriously.
+ \[
+	S = {W}^T+b
+ \]
+ \[ 
+  y = \Frac{1}{1+{e}^{-S}}  
+ \]
+ \[
+  y = h({W}^T + b)
+  \]
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./basic_deep_neural_network}           % keine file extension angeben
+		\caption{Basic Structure of Deep Neural Network}  % Bild_unter_schrift
+		\label{fig:basic_deep_neural_network}
+	\end{center}
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=9cm]{./single_perceptron}           % keine file extension angeben
+		\caption{Perceptron}  % Bild_unter_schrift
+		\label{fig:single_perceptron}
+	\end{center}
+\end{figure}
+
+\subsection{Backpropagation Algorithm}
 
 \section{Neural Machine Translation}
 
