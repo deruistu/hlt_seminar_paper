@@ -7,15 +7,17 @@
 \contentsline {section}{\numberline {2}Neural Nerwork}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}Brief Introduction}{8}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Backpropagation Algorithm}{9}{subsection.2.2}
-\contentsline {section}{\numberline {3}Neural Machine Translation}{9}{section.3}
-\contentsline {section}{\numberline {4}Attention-based Neural Machine Translation}{9}{section.4}
-\contentsline {section}{\numberline {5}Evaluation}{9}{section.5}
-\contentsline {section}{\numberline {6}Introduction}{9}{section.6}
-\contentsline {section}{\numberline {7}Neural Network}{10}{section.7}
-\contentsline {subsection}{\numberline {7.1}Unterabschnitt}{10}{subsection.7.1}
-\contentsline {section}{\numberline {8}Neural Machine Translation}{10}{section.8}
-\contentsline {section}{\numberline {9}Attention-based Neural Machine Translation}{10}{section.9}
-\contentsline {subsubsection}{\numberline {9.0.1}Unter-Unterabschnitt: Beispiel f\"ur Tabellen}{10}{subsubsection.9.0.1}
-\contentsline {subsection}{\numberline {9.1}Unterabschnitt: Beispiel f\"ur Grafiken}{10}{subsection.9.1}
-\contentsline {section}{\numberline {10}Evaluation}{11}{section.10}
-\contentsline {section}{Literaturverzeichnis}{11}{section.10}
+\contentsline {subsection}{\numberline {2.3}Recurrent Neural Network}{10}{subsection.2.3}
+\contentsline {section}{\numberline {3}Neural Machine Translation}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Recurrent Neural Network}{10}{subsection.3.1}
+\contentsline {section}{\numberline {4}Attention-based Neural Machine Translation}{10}{section.4}
+\contentsline {section}{\numberline {5}Evaluation}{10}{section.5}
+\contentsline {section}{\numberline {6}Introduction}{10}{section.6}
+\contentsline {section}{\numberline {7}Neural Network}{11}{section.7}
+\contentsline {subsection}{\numberline {7.1}Unterabschnitt}{11}{subsection.7.1}
+\contentsline {section}{\numberline {8}Neural Machine Translation}{11}{section.8}
+\contentsline {section}{\numberline {9}Attention-based Neural Machine Translation}{11}{section.9}
+\contentsline {subsubsection}{\numberline {9.0.1}Unter-Unterabschnitt: Beispiel f\"ur Tabellen}{11}{subsubsection.9.0.1}
+\contentsline {subsection}{\numberline {9.1}Unterabschnitt: Beispiel f\"ur Grafiken}{11}{subsection.9.1}
+\contentsline {section}{\numberline {10}Evaluation}{13}{section.10}
+\contentsline {section}{Literaturverzeichnis}{13}{section.10}

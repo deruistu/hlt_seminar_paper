@@ -6,15 +6,17 @@
 \BOOKMARK [1][-]{section.2}{Neural Nerwork}{}% 6
 \BOOKMARK [2][-]{subsection.2.1}{Brief Introduction}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.2}{Backpropagation Algorithm}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Neural Machine Translation}{}% 9
-\BOOKMARK [1][-]{section.4}{Attention-based Neural Machine Translation}{}% 10
-\BOOKMARK [1][-]{section.5}{Evaluation}{}% 11
-\BOOKMARK [1][-]{section.6}{Introduction}{}% 12
-\BOOKMARK [1][-]{section.7}{Neural Network}{}% 13
-\BOOKMARK [2][-]{subsection.7.1}{Unterabschnitt}{section.7}% 14
-\BOOKMARK [1][-]{section.8}{Neural Machine Translation}{}% 15
-\BOOKMARK [1][-]{section.9}{Attention-based Neural Machine Translation}{}% 16
-\BOOKMARK [2][-]{subsubsection.9.0.1}{Unter-Unterabschnitt: Beispiel f\374r Tabellen}{section.9}% 17
-\BOOKMARK [2][-]{subsection.9.1}{Unterabschnitt: Beispiel f\374r Grafiken}{section.9}% 18
-\BOOKMARK [1][-]{section.10}{Evaluation}{}% 19
-\BOOKMARK [1][-]{section.10}{Literaturverzeichnis}{}% 20
+\BOOKMARK [2][-]{subsection.2.3}{Recurrent Neural Network}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Neural Machine Translation}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Recurrent Neural Network}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Attention-based Neural Machine Translation}{}% 12
+\BOOKMARK [1][-]{section.5}{Evaluation}{}% 13
+\BOOKMARK [1][-]{section.6}{Introduction}{}% 14
+\BOOKMARK [1][-]{section.7}{Neural Network}{}% 15
+\BOOKMARK [2][-]{subsection.7.1}{Unterabschnitt}{section.7}% 16
+\BOOKMARK [1][-]{section.8}{Neural Machine Translation}{}% 17
+\BOOKMARK [1][-]{section.9}{Attention-based Neural Machine Translation}{}% 18
+\BOOKMARK [2][-]{subsubsection.9.0.1}{Unter-Unterabschnitt: Beispiel f\374r Tabellen}{section.9}% 19
+\BOOKMARK [2][-]{subsection.9.1}{Unterabschnitt: Beispiel f\374r Grafiken}{section.9}% 20
+\BOOKMARK [1][-]{section.10}{Evaluation}{}% 21
+\BOOKMARK [1][-]{section.10}{Literaturverzeichnis}{}% 22

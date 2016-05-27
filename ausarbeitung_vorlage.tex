@@ -376,8 +376,51 @@ In general, neural network is consisted of input layer, hidden layer and output 
 \end{figure}
 
 \subsection{Backpropagation Algorithm}
+Any feed-forward neural network can be trained with backpropagation algorithm, as long as the cost function are differentiable. The most frequently used cost function is the summed squared error(SSE), defined as:
+\[
+C = \Frac{1}{1} \sum_{p}^{n} \sum_{k}^{o} ({d}_{pk} - {y}_{pk})
+\]
+where d is the desired output, n is the total number of training samples and o is the number of output units.\\
+Backpropagation algorithm is actually a propagated gradient descent algorithm, where gradients are propagated backward, leading to very efficient computing of the higher layer weight change. According to the gradient descent, each weight change in the network should be proportional to the negative gradient of the cost function, with respect to the specific weight. The cost function that applid SSE should be defined as:
+\[
+{e}_{n} = ({y}_{n} - NNet({X}_{n}))^{2} = ({y}_{n} - {s}_{1}^{(L)})^2 = 
+({y}_{n} - \sum_{i=0}^{{d}^{(L-1)}} {w}_{i1}^{(L)} {x}_{i}^{(L-1)})^{2}
+\]
+To compute the optimised weight w, we firstly consider the weights associated with output layer. It follows the formula shown below.
+\begin{eqnarray*}
+		\Frac{\partial {e}_{n}}{\partial {w}_{i1}^{(L)}} &=& \Frac{\partial {e}_{n}}{\partial {s}_{1}^{(L)}} * \Frac{\partial {s}_{1}^{(L)}}{\partial {w}_{i1}^{(L)}} \\
+			&=& -2 ({y}_{n} -{s}_{l}^{(L)}) * ({x}_{i}^{(L-1)})
+\end{eqnarray*}
+where L is the output layer. If we diffuse to any layer, then, the computing formula will become:
+\[
+		\Frac{\partial {e}_{n}}{\partial {w}_{ij}^{(l)}} = \Frac{\partial {e}_{n}}{\partial {s}_{j}^{(l)}} * \Frac{\partial {s}_{j}^{(l)}}{\partial {w}_{ij}^{(l)}}
+\]
+We set:
+\[
+{\delta}_{j}^{l} = \Frac{\partial {e}_{n}}{\partial {s}_{1}^{(L)}}
+\]
+Then:
+\[
+\Frac{\partial {e}_{n}}{\partial {w}_{ij}^{(l)}} = {\delta}_{j}^{(l)} * 
+({x}_{i}^{l-1})
+\]
+Therefore, our task is to compute the value of ${\delta}_{j}^{(l)}$. It can be inferred as:
+\begin{eqnarray*}
+	{\delta}_{j}^{l}  &=& \Frac{\partial {e}_{n}}{\partial {s}_{j}^{(l)}}\\
+	&=& \sum_{k=1}^{{d}^{(l+1)}} \Frac{\partial {e}_{n}}{\partial {s}_{k}^{(l+1)}} * \Frac{\partial {s}_{k}^{l+1}}{\partial {x}_{j}^{(l)}} * \Frac{\partial {x}_{j}^{(l)}}{\partial {s}_{j}^{(l)}} \\
+	&=& \sum_{k} ({\delta}_{k}^{(l+1)})({w}_{jk}^{(l+1)})({tanh}^{'}({s}_{j}^{(l)}))
+\end{eqnarray*}
+${\delta}_{j}^{(l)}$ can be computed backwards from ${\delta}_{(l+1)}^{k}$.
+
+\subsection{Recurrent Neural Network}
+Recurrent neural network is a special neural network, which each the wight of each layer are same. Since one important property of translation is the source and target sentences alway are varibale-lenghth. To deal with this problem, recurrent neural network is proposed.\\
+Considering a variable-lenth input \textbf{X} = (${x}_{1}, {x}_{2},...,{x}_{T}$) abd out output \textbf{Y} = (${y}_{1},{y}_{2},...,{y}_{{T}^{'}}$), ${x}_{i}$ and ${y}_{i}$ is represented by its integer index in a vocabulary. A vocabulary includes the most often n(self-defined) works. Every word in a vocabulary has a distinct number, which arranged by its frequence in the corpus.
 
 \section{Neural Machine Translation}
+From the view of neural network, machine translation can be modeled by a deep recurrent neural network. The translation problem is equal to find a maximun probability target sentence \textbf{e} in terms of given source sentence \textbf{f}, for example \textbf{${max}_{y}p(y|x)$ }. In neural machine translation, we fit a model with weights and biases by applying recurrent network based on bilingual language data set. We usually use a encoder to encode the source sentence into a vector, which represent the source sentence. Then, a decoder decode the vector into a target sentence. The encoder and decoder always are recurrent neural network. Next, we the recurrent 
+
+\subsection{Recurrent Neural Network}
+
 
 \section{Attention-based Neural Machine Translation}
 
